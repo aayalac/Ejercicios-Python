@@ -4,6 +4,6 @@ nombre = input("Ingrese nombre: ")
 
 apellido = input("Ingrese apellido: ")
 
-#registro de usuario
+# registro de usuario
 
-print("Bienvenid@ " + nombre +" "+ apellido)
+print("Bienvenid@ " + nombre + " " + apellido)
