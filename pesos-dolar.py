@@ -1,10 +1,10 @@
 print("Programa de conversiion")
 print("-----------------------")
 
-peso = int (4492)
+peso = int(4492)
 
-dolar = int (input("Indique su valor en dolares: "))
+Dolar = int(input('Indique su valor en dolares: '))
 
-conversion = int (peso * dolar)
+conversion = int(peso * Dolar)
 
-print("Su valor en pesos es: $", conversion)
+print("Su valor en pesos es: COP $", conversion)
