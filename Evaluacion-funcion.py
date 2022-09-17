@@ -7,4 +7,3 @@ def funcion(A):
     return str_pos
 m = funcion(A)
 print(m)
-
