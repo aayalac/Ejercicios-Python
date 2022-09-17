@@ -1,0 +1,10 @@
+A = [85, 25, 37, 54, 83, 98, 12]
+def funcion(A):
+    str_pos=""
+    for i in A:
+        if i % 2 == 1 or i % 10 == 5:
+            str_pos = str_pos + str(i) + " "
+    return str_pos
+m = funcion(A)
+print(m)
+
