@@ -16,12 +16,16 @@ for j in range(len(Arreglo)):
     if (Arreglo[j]) % 2 == 0:
         Ordenado[k] = Arreglo[j]
         k = k + 1
+
 j = 0
+
 for j in range(len(Arreglo)):
     if (Arreglo[j]) % 2 != 0:
         Ordenado[k] = Arreglo[j]
         k = k + 1
+
 l = 0
+
 print("Ordenado", "Arreglo inicial")
 for l in range(len(Ordenado)):
     print(Ordenado[l], "         ", Arreglo[l])
