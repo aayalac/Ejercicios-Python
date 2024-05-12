@@ -5,5 +5,4 @@ nombre = input("Ingrese nombre: ") # El programa pide el nombre y el apellido de
 apellido = input("Ingrese apellido: ")
 
 # registro de usuario
-
-print("Bienvenid@ " + nombre + " " + apellido)
+print(f"Bienvenid@ {nombre} {apellido} al maravilloso mundo de Python!!!")
